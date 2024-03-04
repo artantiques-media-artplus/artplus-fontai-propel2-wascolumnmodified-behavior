@@ -1,0 +1,21 @@
+{
+    "name": "fontai/propel2-wascolumnmodified-behavior",
+    "version": "1.0",
+    "description": "Fontai Propel2 WasColumnModified Behavior",
+    "type": "propel-behavior",
+    "extra": {
+        "name": "was_column_modified",
+        "class": "Fontai\\Propel\\Behavior\\WasColumnModified\\WasColumnModifiedBehavior"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Fontai\\Propel\\Behavior\\WasColumnModified\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
